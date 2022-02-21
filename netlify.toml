@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  # Use the Netlify Next.js plugin for hybrid static/SSR support
+  framework = "next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
